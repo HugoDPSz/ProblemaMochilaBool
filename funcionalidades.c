@@ -100,3 +100,7 @@ void ordenaRelacao(elemento* elementos, int inicio, int fim){
         ordenaRelacao(elementos, pivo+1, fim);
     }
 }
+
+int max(int a, int b){
+    return (a > b) ? a : b;
+}

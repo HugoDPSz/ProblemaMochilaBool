@@ -23,5 +23,6 @@ int particionarPosicao(elemento* elementos, int inicio, int fim);
 void ordenaPosicao(elemento* elementos, int inicio, int fim);
 int particionarRelacao(elemento* elementos, int inicio, int fim);
 void ordenaRelacao(elemento* elementos, int inicio, int fim);
+int max(int a, int b);
 
 #endif

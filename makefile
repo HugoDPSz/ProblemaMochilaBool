@@ -8,7 +8,7 @@ CFLAGS = -Wall -Wextra -std=c99
 EXEC = programa
 
 # Lista de arquivos-fonte
-SRC = funcionalidades.c maxRelacao.c
+SRC = funcionalidades.c dinamic.c
 
 # Regra padrão (default) para compilar e gerar o executável
 all: $(EXEC)
